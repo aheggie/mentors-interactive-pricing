@@ -1,0 +1,19 @@
+{
+  "name": "blankreactparcel2021",
+  "version": "0.0.1",
+  "description": "[this is a blank app created with react and parcel. put app description here.]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aheggie/blankreactparcel2021.git"
+  },
+  "author": "Alex Heggie",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/aheggie/blankreactparcel2021/issues"
+  },
+  "homepage": "https://github.com/aheggie/blankreactparcel2021#readme"
+}
