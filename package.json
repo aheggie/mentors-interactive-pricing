@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/aheggie/blankreactparcel2021#readme",
   "devDependencies": {
+    "parcel": "^1.12.3",
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
