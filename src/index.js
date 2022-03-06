@@ -1,13 +1,12 @@
-console.log("before");
-
 import React from "react";
 import { render } from "react-dom";
-
-console.log("hmm");
+import App from "./App";
 
 try {
   render(
-    <React.StrictMode>hollow world</React.StrictMode>,
+    <React.StrictMode>
+      <App></App>
+    </React.StrictMode>,
     document.getElementById("root")
   );
 } catch (error) {
