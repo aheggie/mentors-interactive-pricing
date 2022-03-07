@@ -4,8 +4,8 @@
   "description": "[this is a blank app created with react and parcel. put app description here.]",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "dev": "parcel src/static/index.html",
+    "build": "parcel build src/static/index.html",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "win:clear": "rmdir /q /s dist",
     "win:cleardev": "npm run win:clear && npm run dev",
