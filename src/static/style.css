@@ -1,5 +1,18 @@
+* {
+  /* mini reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  text-align: center;
+}
+
 body {
   background-color: bisque;
+}
+
+#root {
+  background-color: blueviolet;
 }
 
 .test {
