@@ -8,11 +8,25 @@
 }
 
 body {
-  background-color: bisque;
+  /* https://dev.to/lennythedev/css-gotcha-how-to-fill-page-with-a-div-270j */
+  height: 100vh;
+  width: 100vw;
 }
 
 #root {
-  background-color: blueviolet;
+  /* react #root div will fill the entire page and can be manipulated by js as if it were body
+  (see article in body above) */
+  height: 100%;
+  width: 100%;
+
+  /* this fixes a bug where the page doesnt paint fully in some small dimension but may cause a different bug where flex containers dont overflow correctly in other small dimensions - try excising it early in fixing css bugs */
+  overflow: auto;
+
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .test {
