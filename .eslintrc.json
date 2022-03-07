@@ -6,6 +6,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
   ],
   "rules": {
@@ -16,6 +17,7 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2021,
+    "project": "./tsconfig.json",
     "sourceType": "module",
     "ecmaFeatures": { "jsx": true }
   },
