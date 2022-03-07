@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "lint": "eslint \"src/**/*.{js,jsx}\""
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "win:clear": "rmdir /q /s dist",
+    "win:cleardev": "npm run win:clear && npm run dev",
+    "win:clearbuild": "npm run win:clear && npm run build",
+    "buildserve": "npm run build && npx serve -s dist"
   },
   "repository": {
     "type": "git",
@@ -28,7 +32,10 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "parcel": "^1.12.3",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "stylelint": "^14.5.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
   },
   "dependencies": {
     "react": "^17.0.1",
