@@ -1,4 +1,1 @@
-[this is a blank app created with react and parcel. put app description here.]
-
-you will want to update at least name, version, description and repository url in package.json for a derived project, as well as possibly main and license
-
+A project in typescript and react, implementing this FrontEndMentors project: https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8
