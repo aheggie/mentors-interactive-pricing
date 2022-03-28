@@ -9,6 +9,15 @@
   text-align: center;
 }
 
+:root {
+  /* Primary Colours */
+  --full-slider-bar: hsl(174deg 77% 80%);
+  --slider-background: hsl(174deg 86% 45%);
+  --discount-background: hsl(14deg 92% 95%);
+  --discount-text: hsl(15deg 100% 70%);
+  --cta-text: hsl(226deg 100% 87%);
+}
+
 body {
   /* https://dev.to/lennythedev/css-gotcha-how-to-fill-page-with-a-div-270j */
   height: 100vh;
@@ -35,5 +44,6 @@ body {
 }
 
 .test {
-  color: fuchsia;
+  color: var(--cta-text);
+  background-color: var(--full-slider-bar);
 }
