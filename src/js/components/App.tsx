@@ -1,6 +1,9 @@
 import { FunctionComponent } from "react";
 import "../../static/style.css";
 
+//this is type string from svg.d.ts
+import IconCheck from "../../images/icon-check.svg";
+
 const App: FunctionComponent = () => {
   return (
     <>
@@ -14,10 +17,27 @@ const App: FunctionComponent = () => {
         <div className="pricecard__pricecontainer">
           <span className="pricecard__pageviews">100k pageviews</span>
           <span className="pricecard__rate">
-            <span className="pricecard__dollars"></span>$16.00
+            <span className="pricecard__dollars">$16.00</span> /month
           </span>
           month
         </div>
+      </div>
+      <div className="signupcard">
+        <ul className="signupcard__infolist">
+          <li className="signupcard__infoitem">
+            <img src={IconCheck} alt="" className="signupcard__checkicon" />
+            <span className="signupcard__infotext"></span>
+          </li>
+          <li className="signupcard__infoitem">
+            <img src={IconCheck} alt="" className="signupcard__checkicon" />
+            <span className="signupcard__infotext"></span>
+          </li>
+          <li className="signupcard__infoitem">
+            <img src={IconCheck} alt="" className="signupcard__checkicon" />
+            <span className="signupcard__infotext"></span>
+          </li>
+        </ul>
+        <button className="signupcard__signupbutton">Start my trial</button>
       </div>
     </>
   );
