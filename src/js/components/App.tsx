@@ -35,7 +35,7 @@ const App: FunctionComponent = () => {
             />
             <span className="pricecard__togglecircle"></span>
           </div>
-          {/* there is a 25% discount sticker next to this, not sure if it should be in pseudo-element? */}
+          {/* there is a "25% discount" sticker next to this, not sure if it should be in pseudo-element? */}
           <span className="pricecard__yearlylabel">Yearly Billing</span>
         </div>
       </div>
@@ -43,15 +43,15 @@ const App: FunctionComponent = () => {
         <ul className="signupcard__infolist">
           <li className="signupcard__infoitem">
             <img src={IconCheck} alt="" className="signupcard__checkicon" />
-            <span className="signupcard__infotext"></span>
+            <span className="signupcard__infotext">Unlimited websites</span>
           </li>
           <li className="signupcard__infoitem">
             <img src={IconCheck} alt="" className="signupcard__checkicon" />
-            <span className="signupcard__infotext"></span>
+            <span className="signupcard__infotext">100% data ownership</span>
           </li>
           <li className="signupcard__infoitem">
             <img src={IconCheck} alt="" className="signupcard__checkicon" />
-            <span className="signupcard__infotext"></span>
+            <span className="signupcard__infotext">Email reports</span>
           </li>
         </ul>
         <button className="signupcard__signupbutton">Start my trial</button>
