@@ -35,6 +35,7 @@ const App: FunctionComponent = () => {
             />
             <span className="pricecard__togglecircle"></span>
           </div>
+          {/* there is a 25% discount sticker next to this, not sure if it should be in pseudo-element? */}
           <span className="pricecard__yearlylabel">Yearly Billing</span>
         </div>
       </div>
